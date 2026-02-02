@@ -211,8 +211,8 @@ if (!isMobile) {
 
 function downloadCV() {
     const link = document.createElement('a');
-    link.href = './img/Achille_Zouaoui_DevJavaBackendJunior.pdf';
-    link.download = 'Achille_Zouaoui_DevJavaBackendJunior.pdf';
+    link.href = './img/Achille_Zouaoui_DevJavaBackend.pdf';
+    link.download = 'CV_ACHILLEZOUAOUI_DEV_JAVA.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
